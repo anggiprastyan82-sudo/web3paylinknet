@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-[#0A0A0A] text-[#f5f5f7] antialiased;
+}
+
+.glass-card {
+  @apply bg-[#161616] border border-[#262626] rounded-2xl p-8 shadow-sm;
+}
+
+.btn-primary {
+  @apply bg-white text-black hover:bg-neutral-200 px-6 py-2 rounded-lg font-bold text-xs uppercase tracking-wider transition-all active:scale-95 disabled:opacity-50;
+}
+
+.input-field {
+  @apply bg-[#0A0A0A] border border-[#262626] rounded-xl px-5 py-4 font-mono text-sm text-neutral-300 focus:outline-none focus:ring-1 focus:ring-neutral-500 transition-all;
+}
+
+.label-secondary {
+  @apply text-sm font-medium text-neutral-500 uppercase tracking-widest mb-6 block;
+}
+
+.mono-value {
+  @apply font-mono text-neutral-300;
+}
+
+.badge-success {
+  @apply text-[#14F195] bg-[#14F19510] px-2 py-0.5 rounded text-[10px] font-mono;
+}
+

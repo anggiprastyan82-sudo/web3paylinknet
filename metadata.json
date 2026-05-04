@@ -1,0 +1,6 @@
+{
+  "name": "Solana PayLink",
+  "description": "A decentralized payment link platform. Connect your Phantom wallet and receive SOL payments with automated 1% platform fees.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
